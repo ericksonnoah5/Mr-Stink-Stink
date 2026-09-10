@@ -1,7 +1,7 @@
 {
   "name": "Noah and Katie's",
   "short_name": "N&K",
-  "description": "Noah and Katie's fitness tracker",
+  "description": "Potty tracker for Atlas",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
