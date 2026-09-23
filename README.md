@@ -5,6 +5,8 @@
 
 **Live demo:** https://mrstinkstink.com
 
+![Mr Stink Stink deployed dashboard with event buttons, elapsed timers, and Atlas](docs/screenshots/mr-stink-stink.jpg)
+
 ## Overview
 
 Mr Stink Stink records when Atlas goes out, shows how long it has been since the
