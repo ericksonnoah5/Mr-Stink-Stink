@@ -1,19 +1,25 @@
 # Mr Stink Stink
 
-A potty tracker for our dog, Atlas. It records when he goes out, shows how long
-it has been since the last time, and turns colour once he is overdue.
+> A one-tap potty tracker for our dog, Atlas — live elapsed timers, overdue colour
+> coding, and running totals, installable to a phone or wall-mounted touchscreen.
 
-Built because "wait, when did he last go out?" is a question that gets asked a
-lot and nobody ever remembers the answer. It is in daily use.
+**Live demo:** https://mr-stink-stink-ericksonnoah.vercel.app
 
-## What it does
+## Overview
+
+Mr Stink Stink records when Atlas goes out, shows how long it has been since the
+last time, and changes colour once he is overdue. It was built because "wait,
+when did he last go out?" is a question that gets asked a lot and nobody ever
+remembers the answer. It is in daily use.
+
+## Features
 
 - **One-tap logging.** Buttons for poop, pee, and accidents. Each tap writes a
   timestamped row to Supabase.
-- **Live elapsed timer.** A ticking counter showing time since the last poop
-  and the last pee, updated every second.
-- **Overdue colour coding.** The indicator next to each timer is green, then
-  yellow, then red as time passes:
+- **Live elapsed timer.** A ticking counter showing time since the last poop and
+  the last pee, updated every second.
+- **Overdue colour coding.** The indicator next to each timer moves from green to
+  yellow to red as time passes:
 
   | | yellow | red |
   |---|---|---|
@@ -21,16 +27,15 @@ lot and nobody ever remembers the answer. It is in daily use.
   | poop | 6 hours | 8 hours |
 
 - **Running totals** for poops, pees, and accidents.
-- **Installable.** A web app manifest and service worker make it installable to
-  a home screen and launchable standalone, so it behaves like a native app on a
-  phone or on the wall-mounted touchscreen it runs on.
+- **Installable.** A web app manifest and service worker make it installable to a
+  home screen and launchable standalone, so it behaves like a native app.
 
-## Stack
+## Tech stack
 
 Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS · Supabase
-(Postgres) · deployed as a PWA.
+(Postgres) · deployed to Vercel as a PWA.
 
-## Running it locally
+## Getting started
 
 ```sh
 cd app
@@ -57,3 +62,7 @@ column plus `poop times`, `pee times`, and `accident` flag columns.
 | `npm run lint` | ESLint |
 | `npm run typecheck` | `tsc --noEmit` |
 | `npm run format` | Prettier |
+
+## License
+
+Released under the [MIT License](LICENSE).
