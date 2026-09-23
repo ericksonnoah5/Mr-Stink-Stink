@@ -3,7 +3,7 @@
 > A one-tap potty tracker for our dog, Atlas — live elapsed timers, overdue colour
 > coding, and running totals, installable to a phone or wall-mounted touchscreen.
 
-**Live demo:** https://mr-stink-stink-ericksonnoah.vercel.app
+**Live demo:** https://mrstinkstink.com
 
 ## Overview
 
